@@ -16,6 +16,6 @@ CREATE TABLE counties (
   daysCO int,
   daysNO2 int, 
   daysOzone int,
-  daysPM2-5 int,
+  daysPM2point5 int,
   daysPM10 int,
 );
