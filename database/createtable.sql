@@ -11,7 +11,7 @@ CREATE TABLE counties (
   veryUnhealthyDays int,
   hazardousDays int,
   maxAQI int,
-  90thPercentileAQI int,
+  ninetyPercentileAQI int,
   medianAQI int,
   daysCO int,
   daysNO2 int, 
