@@ -1,0 +1,18 @@
+#analysisNav a{
+    font-weight: 900;
+}
+
+table {
+    padding-top: .5em;
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+}
+table th {
+    font-size: 35px;
+}
+
+.runAgain {
+    padding-top: .5em;
+}
+

@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <title>County Data Explorer</title> 
+    <link rel="stylesheet" href="generalStyle.css">
+    <link rel="stylesheet" href="aboutTheDataStyle.css">
+</head>
+
+<body>
+    <h1>USA County-Level Data Explorer</h1>
+
+    <nav>
+        <ul>
+            <li id="homeNav"><a href="./homepage.html">Home</a></li>
+            <li id="analysisNav"><a href="./sampleResults.html">Data Analysis</a></li>
+            <li id="aboutNav"><a href="./aboutTheData.html">About the Data</a></li>
+        </ul>
+    </nav>
+
+    <div class="sources">
+        <h2>Sources</h2>
+        <p>We are using data from the US Census, the US Bureau of Economic Analysis (BEA), and the US Environmental Protection Agency (EPA)</p>
+        <ul>
+            <li><a href="https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual">EPA data</a> consists of air quality data summarized on an annual basis, including data about  AQI (air quality index) and additional measures of air quality.</li>
+            <li> <a href=https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html#v2021>Census data</a> consists of Annual Resident Population Estimates.</li>
+            <li> <a href = https://www.bea.gov/data/gdp/gdp-county-metro-and-other-areas>BEA data</a> consists of Gross Domestic Product (GDP) summary by county.</li>
+
+        </ul>
+        <p>All data was collected in the year 2021. Since all of the data was measured at the county level, we can combine the datasets to analyze the correlation between different variables from the datasets.</p>
+    </div>
+
+    <div class="modifications">
+        <h2>Modifications</h2>
+        <p>We combined these three datasets for our project.</p>
+        <p>For each US county, we collected the population in 2021, real GDP in chained US dollars in 2021, the number of Good Air Quality Days, the number of Moderate Air Quality Days, Unhealthy for Sensitive Groups Days, Unhealthy Days, Very Unhealthy Days, Hazardous Days, the Max AQI, the 90th Percentile AQI, the Median AQI, number of Days CO, number of Days NO2, Days Ozone, Days PM2.5, and Days PM10.  </p>
+        <p> We did encounter an issue when combining all of our data. Air quality data is only measured in counties where the EPA has air quality monitors, so for counties without monitors, the data was left null.</p>
+    </div>
+
+    <div class="usage">
+        <h2> Licensing and Usage</h2>
+        <p>As all of our data is from government agencies, the only government data that is restricted is confidential information. As part of the Open Data Policy, we are able to use the datasets for our research.</p>
+    </div>
+</body>

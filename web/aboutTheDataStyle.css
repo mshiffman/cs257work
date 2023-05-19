@@ -1,0 +1,19 @@
+#aboutNav a{
+    font-weight: 900;
+}
+
+.sources {
+    margin-left: 5%;
+}
+
+.modifications {
+    margin-left: 5%;
+}
+
+.usage {
+    margin-left: 5%;
+}
+
+h2{
+    margin-left: -5%;
+}

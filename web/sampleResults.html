@@ -1,0 +1,90 @@
+<html lang="en">
+
+<head>
+    <title>County Data Explorer</title> 
+    <link rel="stylesheet" href="generalStyle.css">    
+    <link rel="stylesheet" href="sampleResultsStyle.css">
+</head>
+
+<body>
+    <h1>USA County-Level Data Explorer</h1>
+
+    <nav>
+        <ul>
+            <li id="homeNav"><a href="./homepage.html">Home</a></li>
+            <li id="analysisNav"><a href="./sampleResults.html">Data Analysis</a></li>
+            <li id="aboutNav"><a href="./aboutTheData.html">About the Data</a></li>
+        </ul>
+    </nav>
+    
+    <div class="view">
+        <h2>View Top 5 Counties By GDP per Capita</h2>
+        <table>
+            <tr>
+                <th>County</th>
+                <th>GDP</th>
+                <th>Population</th>
+                <th>GDP per Capita</th>
+
+            </tr>
+            <tr>
+                <td>Loving, Texas</td>
+                <td>8094120</td>
+                <td>57</td>
+                <td>142002</td>
+            </tr>
+            <tr>
+                <td>Glasscock, Texas</td>
+                <td>4711124</td>
+                <td>1149</td>
+                <td>4100</td>
+            </tr>
+            <tr>
+                <td>McMullen, Texas</td>
+                <td>2381502</td>
+                <td>608</td>
+                <td>3916</td>
+            </tr>
+            <tr>
+                <td>Martin, Texas</td>
+                <td>14429263</td>
+                <td>5211</td>
+                <td>2769</td>
+            </tr>
+            <tr>
+                <td>Upton, Texas</td>
+                <td>8381526</td>
+                <td>3265</td>
+                <td>2567</td>
+            </tr>
+        </table>
+    </div>
+
+<div class="runAgain">
+    <h3>Want to Run This Again?</h3>
+    <form action="get">
+        <label for="num"> View Top</label>
+        <input placeholder = "Number of Counties"type="text">
+        <label>Counties by</label>
+        <select>
+            <option>GDP</option>
+            <option>Population</option>
+            <option>GDP per Capita</option>
+            <option>Good Days</option>
+            <option>Moderate Days</option>>
+            <option>Unhealthy for Sensitive Groups Days</option>
+            <option>Unhealthy Days</option>
+            <option>Very Unhealthy Days</option>
+            <option>Hazardous Days</option>
+            <option>Max AQI</option>
+            <option>0th Percentile AQI</option>
+            <option>Median AQI</option>
+            <option>Days CO</option>
+            <option>Days NO2</option>
+            <option>Days Ozone</option>
+            <option>Days PM2.5</option>
+            <option> Days PM10</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+</div>
